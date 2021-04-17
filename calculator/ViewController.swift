@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             if let secondGiven = Int(secondNumber.text!) {
                 
                 let sonuc = firstGiven + secondGiven
-                result.text = String(sonuc)
+                result.text = String(finalResult)
             }
         }
             
@@ -33,26 +33,26 @@ class ViewController: UIViewController {
         if let firstGiven  = Int(firstNumber.text!) {
             if let secondGiven = Int(secondNumber.text!) {
                 let sonuc = firstGiven - secondGiven
-                result.text = String(sonuc)
+                result.text = String(finalResult)
             }
         }
     }
-    @IBAction func carpma(_ sender: Any) {
+    @IBAction func multiplation(_ sender: Any) {
         
         if let firstGiven  = Int(firstNumber.text!) {
             if let secondGiven = Int(secondNumber.text!) {
                 let sonuc = firstGiven * secondGiven
-                result.text = String(sonuc)
+                result.text = String(finalResult)
             }
         }
     }
         
-    @IBAction func bolmee(_ sender: Any) {
+    @IBAction func division(_ sender: Any) {
         
         if let firstGiven  = Int(firstNumber.text!) {
             if let secondGiven = Int(secondNumber.text!) {
                 let sonuc = firstGiven / secondGiven
-                result.text = String(sonuc)
+                result.text = String(finalResult)
             }
         }
     }
